@@ -1,0 +1,18 @@
+
+.loading{
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.image{
+    object-fit: cover;
+    width: 100%;
+    
+}
+.mypaper{
+    border: 1px solid rgb(199, 3, 199);
+    height:35em;
+    overflow-y: scroll;
+}

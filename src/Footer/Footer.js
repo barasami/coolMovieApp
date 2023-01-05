@@ -1,6 +1,8 @@
 import React from 'react'
 import './Footer.css'
 
+let myYear=new Date().getFullYear()
+
 function Footer() {
   return (
     <footer className='footer'>
@@ -9,7 +11,7 @@ function Footer() {
           <a className='about' href='https://barasamicheal.netlify.app' rel="noreferrer" target='_blank'>About Me</a>
         </div>
         <div className='copyright'>
-          <p>&copy;Movies Hub,2023 All rights Reserved</p>
+          <p>&copy;Movies Hub,{myYear} All rights Reserved</p>
         </div>
       </div>
     </footer>

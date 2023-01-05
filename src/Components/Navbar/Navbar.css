@@ -12,6 +12,7 @@
     color: white;
     position: fixed;
     width: 100%;
+    height: 10vh;
 }
 .my-title{
     font-size: 1.2em;
@@ -57,11 +58,10 @@
     .Navbar-links .mymenu{
         position:fixed;
         width: 100%;
-        height: 100vh;
+        height:calc(100vh - 10vh);
         background-color:darkmagenta ;
         opacity: 0.9;
         top:36px;
-        left: 0;
         left: -100%;
         text-align: center;
 
@@ -69,11 +69,12 @@
     
     .Navbar-links ul{
         display: block;
-        margin-top: 17.7px;
+        margin-top: 37px;
         width: 150%;
         height: 100vh;
         background-color:darkmagenta ;
         opacity: 0.9;
+        z-index: -1;
         line-height: 20px;
         position:absolute;
     }

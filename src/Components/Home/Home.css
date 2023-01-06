@@ -7,11 +7,10 @@
 
 }
 
-.loading{
-    margin-left: 45%;
-    margin-right: 45%;
-    margin-top: 25%;
-    margin-bottom: 25%;
+.load{
+    position: fixed;
+    top: 50%;
+    left: 50%;
 }
 
 

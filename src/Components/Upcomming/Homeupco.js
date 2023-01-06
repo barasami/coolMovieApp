@@ -20,7 +20,7 @@ function Homeupco() {
     },[])
   return (
     <>
-        {loading ? <CircularProgress color='secondary' className='loading'/> : <Grid container   >
+        {loading ? <CircularProgress color='secondary' className='load'/> : <Grid container   >
         {upcomming.map((upmovies)=>{
             const{id,title,thumbnail}=upmovies
             return(

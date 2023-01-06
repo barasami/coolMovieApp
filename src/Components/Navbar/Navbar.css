@@ -70,11 +70,10 @@
     .Navbar-links ul{
         display: block;
         margin-top: 37px;
-        width: 150%;
+        width: 100%;
         height: 100vh;
         background-color:darkmagenta ;
         opacity: 0.9;
-        z-index: -1;
         line-height: 20px;
         position:absolute;
     }

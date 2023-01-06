@@ -25,13 +25,13 @@ function Mainhome() {
   },[])
   return (
     <>
-    {loading ? <CircularProgress color='secondary' className='loading'/> : <Grid container>
+    {loading ? <CircularProgress color='secondary' className='load'/> : <Grid container>
         {movie.map((moviz)=>{
             const{image,rank,rating,thumbnail,title,year,id}=moviz
             
            
             return(
-                <Grid item  lg={4} sm={6} xs={12} mt={10} key={id} >
+                <Grid item  lg={4} sm={6} xs={12} mt={10}  key={id} >
                   <Container>
                     <Paper className='paper' elevation={7}>
                       <img src={image} alt={title} className="image"/>

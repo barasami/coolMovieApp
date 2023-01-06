@@ -19,7 +19,7 @@ function Homenews() {
     },[])
   return (
     <>
-      {loading ?<CircularProgress color='secondary' className='loading'/> : <Grid container  >
+      {loading ?<CircularProgress color='secondary' className='load'/> : <Grid container  >
       {news.map((coolnews)=>{
         const{image,date,title,description,link,id}=coolnews
 

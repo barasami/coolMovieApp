@@ -11,7 +11,6 @@
     
 }
 .mypaper{
-    border: 1px solid rgb(199, 3, 199);
     height:35em;
     overflow-y: scroll;
 }

@@ -26,9 +26,8 @@
     object-fit: cover;
 }
 .paper{
-    border: 1px solid rgb(199, 3, 199);
     height: 38em;
-    margin: 1px;
+    
 
 }
 .thumbnail{

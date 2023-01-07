@@ -13,7 +13,6 @@
     color: white;
     padding: 0.4em;
     width: 100%;
-    margin-top: 1em;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -21,7 +20,6 @@
     opacity: 0.8;
 
 }
-
 
 
 .link{

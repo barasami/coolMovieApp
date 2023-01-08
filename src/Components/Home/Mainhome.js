@@ -25,7 +25,7 @@ function Mainhome() {
   },[])
   return (
     <>
-    {loading ? <CircularProgress color='secondary' className='load'/> : <Grid container>
+    {loading ? <CircularProgress color='secondary' className='load'/> : <Grid container rowSpacing={1}>
         {movie.map((moviz)=>{
             const{image,rank,rating,thumbnail,title,year,id}=moviz
             

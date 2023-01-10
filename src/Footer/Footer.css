@@ -5,12 +5,14 @@
 }
 
 .footer{
-    height: 18vh;
+    height: 10vh;
     background-color:  rgb(109, 6, 109);
+    opacity: .7;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    
     
 }
 .container{

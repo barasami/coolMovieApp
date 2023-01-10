@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(109, 6, 109) ;;
+    background-color: rgb(109, 6, 109) ;
     color: white;
     position: fixed;
     width: 100%;
@@ -54,7 +54,7 @@
   
 }
 
-@media (max-width:909px) {
+@media (max-width:900px) {
     .bars{
         display: block;
     }
@@ -91,6 +91,36 @@
 
   
 }
+@media (max-width:900px) {
+    .Navbar-links .mymenu{
+        position:fixed;
+        width: 100%;
+        height:calc(100vh - 10vh);
+        background-color:darkmagenta  ;
+        opacity: 0.9;
+        top:3em;
+        left:0;
+        text-align: center;
+        transition: all linear 1s;
+
+    }
+    
+}
+@media (max-width:800px) {
+    .Navbar-links .mymenu{
+        position:fixed;
+        width: 100%;
+        height:calc(100vh - 10vh);
+        background-color:darkmagenta  ;
+        opacity: 0.9;
+        top:2.9em;
+        left:0;
+        text-align: center;
+        transition: all linear 1s;
+
+    }
+    
+}
 @media (max-width:700px) {
     .Navbar-links .mymenu{
         position:fixed;
@@ -98,7 +128,22 @@
         height:calc(100vh - 10vh);
         background-color:darkmagenta  ;
         opacity: 0.9;
-        top:5.4em;
+        top:3.1em;
+        left:0;
+        text-align: center;
+        transition: all linear 1s;
+
+    }
+    
+}
+@media (max-width:600px) {
+    .Navbar-links .mymenu{
+        position:fixed;
+        width: 100%;
+        height:calc(100vh - 10vh);
+        background-color:darkmagenta ;
+        opacity: 0.9;
+        top:3.1em;
         left:0;
         text-align: center;
         transition: all linear 1s;
@@ -111,9 +156,39 @@
         position:fixed;
         width: 100%;
         height:calc(100vh - 10vh);
+        background-color:darkmagenta ;
+        opacity: 0.9;
+        top:3.1em;
+        left:0;
+        text-align: center;
+        transition: all linear 1s;
+
+    }
+    
+}
+@media (max-width:400px) {
+    .Navbar-links .mymenu{
+        position:fixed;
+        width: 100%;
+        height:calc(100vh - 10vh);
         background-color:darkmagenta  ;
         opacity: 0.9;
-        top:5.6em;
+        top:3.2em;
+        left:0;
+        text-align: center;
+        transition: all linear 1s;
+
+    }
+    
+}
+@media (max-width:300px) {
+    .Navbar-links .mymenu{
+        position:fixed;
+        width: 100%;
+        height:calc(100vh - 10vh);
+        background-color:darkmagenta  ;
+        opacity: 0.9;
+        top:3em;
         left:0;
         text-align: center;
         transition: all linear 1s;
@@ -128,7 +203,7 @@
         height:calc(100vh - 10vh);
         background-color:darkmagenta ;
         opacity: 0.9;
-        top:5.4em;
+        top:3.2em;
         left:0;
         text-align: center;
         transition: all linear 1s;

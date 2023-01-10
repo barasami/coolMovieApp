@@ -28,11 +28,13 @@
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    justify-content: center;
     
 
 }
 .copyright{
     margin-bottom: 0.3em;
+    padding-top: .5em;
     
 
 }
